@@ -34,7 +34,7 @@ This is the **Frontend** project for a hotel booking website.
   ![Home Page](./src/images/homepage.jpg)
 
 - Created the **Hotel List** page showing available hotels.
-  ![List hotel](./src/images/listhotel.jpg.jpg)
+  ![List hotel](./src/images/listhotel.jpg)
 - Implemented the **Hotel Filter/Search** page.
   ![Filter Page](./src/images/filterhotel.jpg)
 
