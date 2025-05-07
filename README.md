@@ -40,6 +40,15 @@ This is the **Frontend** project for a hotel booking website.
 
 ---
 
+### 05/05 - 11/05/2025
+
+- Designed the **Home Detail Page** UI.
+  ![Home Detail Page](./src/images/hoteldetail.jpg)
+- Designed the **Booking Page** UI.
+  ![Booking Page](./src/images/bookingform.jpg)
+  Work:
+  Use useQuery to fetch hotel information and useMutation to implement the booking functionality.
+
 ## 🚀 Technologies Used
 
 - React.js
