@@ -49,6 +49,24 @@ This is the **Frontend** project for a hotel booking website.
   Work:
   Use useQuery to fetch hotel information and useMutation to implement the booking functionality.
 
+### 12/05 - 18/05/2025
+
+- Implemented VNPAY Payment Integration on the frontend.
+  ![VNPAY](./src/images/VNPAY.jpg)
+  Work:
+  Integrated VNPAY API for handling payment processing. After booking, users are redirected to VNPAY and returned with payment status.
+  ![VNPAYSTATUS](./src/images/VNPAYSTATUS.jpg.jpg)
+
+### 19/05 - 25/05/2025
+
+Developed the Comment Section for hotel detail pages.
+![Comment](./src/images/comment.jpg)
+
+Built the Related Hotels feature to suggest hotels based on category.
+![Related_Hotel](./src/images/related_hoetl.jpg)
+Added User Profile Management functionality, allowing users to view and update their personal information.
+![Related_Hotel](./src/images/ProfileManagement.jpg)
+
 ## 🚀 Technologies Used
 
 - React.js
