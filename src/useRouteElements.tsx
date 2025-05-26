@@ -5,6 +5,7 @@ import Authenticate from './components/Authenticate'
 
 import { useContext } from 'react'
 import { AppContext } from './contexts/app.context'
+import AboutUs from './pages/AboutUs'
 
 export default function useRouteElements() {
   const routeElements = useRoutes([
@@ -15,6 +16,10 @@ export default function useRouteElements() {
     {
       path: '/login',
       element: <Login />
+    },
+    {
+      path: '/about-us',
+      element: <AboutUs />
     }
   ])
   return routeElements
