@@ -83,7 +83,7 @@ export default function AboutUs() {
             <p>📧 support@trip.com</p>
           </div>
           <button className='mt-6 bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition'>
-            Send a Message
+            Send a Message from branch about-us-1
           </button>
         </div>
       </section>
