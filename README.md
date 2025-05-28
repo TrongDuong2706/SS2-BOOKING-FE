@@ -65,7 +65,16 @@ Developed the Comment Section for hotel detail pages.
 Built the Related Hotels feature to suggest hotels based on category.
 ![Related_Hotel](./src/images/related_hoetl.jpg)
 Added User Profile Management functionality, allowing users to view and update their personal information.
-![Related_Hotel](./src/images/ProfileManagement.jpg)
+![ProfileManagement](./src/images/ProfileManagement.jpg)
+
+### 26/05 - 01/06/2025
+
+List Hotel Admin Page
+![ListHotelAdmin](./src/images/LIstHotelAdmin.jpg)
+Create Hotel Admin Page
+![AddHotelPage](./src/images/AddHotelAdmin.jpg)
+Edit Hotel Admin Page
+![EditHotelPage](./src/images/EditHotelAdmin.jpg)
 
 ## 🚀 Technologies Used
 
