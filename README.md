@@ -76,6 +76,15 @@ Create Hotel Admin Page
 Edit Hotel Admin Page
 ![EditHotelPage](./src/images/EditHotelAdmin.jpg)
 
+### 02/06 - 08/06/2025
+
+List Room Admin Page
+![ListRoomAdmin](./src/images/listRoomAdmin.jpg)
+Create Room Admin Page
+![AddRoomPage](./src/images/AddRoomAdmin.jpg)
+Edit Room Admin Page
+![EditRoomPage](./src/images/EditRoomAdmin.jpg)
+
 ## 🚀 Technologies Used
 
 - React.js
