@@ -5,7 +5,12 @@ import {
   Hotel as HotelIcon,
   Event as EventIcon,
   Group as GroupIcon,
-  Settings as SettingsIcon
+  Settings as SettingsIcon,
+  MeetingRoom,
+  Hotel,
+  HotelSharp,
+  House,
+  Home
 } from '@mui/icons-material'
 
 export default function AdminSidebar() {
@@ -14,10 +19,10 @@ export default function AdminSidebar() {
       <div className='p-4'>
         <ul className='space-y-4'>
           {[
-            { text: 'Home', icon: <HomeIcon />, link: '/' },
-            { text: 'Hotels', icon: <HotelIcon />, link: '/admin/hotel-list' },
+            { text: 'Home', icon: <House />, link: '/' },
+            { text: 'Hotels', icon: <Home />, link: '/admin/hotel-list' },
             { text: 'Bookings', icon: <EventIcon />, link: '/admin/bookings' },
-            { text: 'Users', icon: <GroupIcon />, link: '/admin/users' },
+            { text: 'Room', icon: <HotelIcon />, link: '/admin/room' },
             { text: 'Settings', icon: <SettingsIcon />, link: '/admin/settings' }
           ].map((item) => (
             <li key={item.text} className='flex items-center p-3 rounded-md hover:bg-gray-100 cursor-pointer'>

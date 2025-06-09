@@ -1,4 +1,5 @@
-import { BookingResponse } from 'src/types/booking.type'
+import { BookingResponse, BookingsResponse } from 'src/types/booking.type'
+import { OneRoomResponse } from 'src/types/room.type'
 import http from 'src/utils/http'
 
 export const booking = (body: {
@@ -23,3 +24,8 @@ export const booking = (body: {
 export const getTotalBookings = () => http.get('/bookings/totalBookings')
 
 export const chartRevenue = () => http.get('/bookings/monthly')
+
+export const getAllBooking = (page: number, size: number) =>
+  http.get<BookingsResponse>('/bookings', { params: { page, size } })
+export const getOneBooking = (bookingId: number) => http.get<BookingResponse>(`/bookings/${bookingId}`)
+export const getRoomByBookingId = (bookingId: number) => http.get<OneRoomResponse>(`/bookings/room/${bookingId}`)

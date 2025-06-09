@@ -9,6 +9,7 @@ import Input from 'src/components/Input'
 import { OAuthConfig } from 'src/configurations/configuration'
 import { AppContext } from 'src/contexts/app.context'
 import { LoginSchema, schemaLogin } from 'src/utils/rules'
+import { isAdmin } from 'src/utils/utils'
 
 type FormData = LoginSchema
 export default function Login() {
@@ -48,7 +49,11 @@ export default function Login() {
     registerAccountMutation.mutate(body, {
       onSuccess: (data) => {
         toast('Đăng nhập thành công')
-        navigate('/')
+        if (isAdmin()) {
+          navigate('/admin', { replace: true }) // Chuyển hướng admin
+        } else {
+          navigate('/', { replace: true }) // Chuyển hướng user thường
+        }
         setIsAuthenticated(true)
         console.log(data)
       }

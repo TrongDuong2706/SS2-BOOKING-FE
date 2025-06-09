@@ -1,0 +1,1 @@
+import ThankYou from './ThankYou'

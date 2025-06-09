@@ -85,6 +85,15 @@ Create Room Admin Page
 Edit Room Admin Page
 ![EditRoomPage](./src/images/EditRoomAdmin.jpg)
 
+### 09/06 - 15/06/2025
+
+List Bookings Admin Page
+![ListAdminBooking](./src/images/adminlistbooking.jpg)
+Booking Detail Page
+![BookingDetail](./src/images/adminbookingdetail.jpg)
+Dashboard
+![Dashboard](./src/images/admindashboardrev.jpg)
+
 ## 🚀 Technologies Used
 
 - React.js

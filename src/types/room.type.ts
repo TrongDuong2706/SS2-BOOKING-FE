@@ -32,3 +32,27 @@ export type OneRoomResponse = SuccessResponse<{
   available: boolean
   price: number
 }>
+
+export type AdminRoomResponse = SuccessResponse<{
+  totalItems: number
+  totalPages: number
+  currentPage: number
+  pageSize: number
+  hasNextPage: boolean
+  hasPreviousPage: boolean
+  hotels: RoomAdmin[]
+}>
+
+export interface RoomAdmin {
+  id: number
+  bedCount: number
+  description: string
+  roomArea: number
+  roomNumber: string // Đảm bảo kiểu là string
+  roomType: string
+  status: string
+  hotelId: number
+  images: Image[]
+  available: boolean
+  price: number
+}
